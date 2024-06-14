@@ -1,0 +1,21 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+# app_task_index:
+#     path: /tasks
+#     controller: App\Controller\TaskController::index
+
+# app_task_new:
+#     path: /tasks/new
+#     controller: App\Controller\TaskController::new
+
+# app_task_edit:
+#     path: /tasks/{id}/edit
+#     controller: App\Controller\TaskController::edit
+
+# app_task_delete:
+#     path: /tasks/{id}/delete
+#     controller: App\Controller\TaskController::delete
